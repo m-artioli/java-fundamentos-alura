@@ -1,13 +1,13 @@
-//TIP Para <b>executar</b> o código, pressione <shortcut actionId="Run"/> ou
-// clique no ícone <icon src="AllIcons.Actions.Execute"/> na calha.
 void main() {
-  //TIP Pressione <shortcut actionId="ShowIntentionActions"/> com o cursor no texto destacado
-  // para ver como o IntelliJ IDEA sugere corrigi-lo.
-  IO.println(String.format("Hello and welcome!"));
+    int idade = 0;
+    float altura = 0f;
 
-  for (int i = 1; i <= 5; i++) {
-    //TIP Pressione <shortcut actionId="Debug"/> para iniciar a depuração do seu código. Definimos um ponto de interrupção <icon src="AllIcons.Debugger.Db_set_breakpoint"/>.
-    // para você, mas você sempre pode adicionar mais pressionando <shortcut actionId="ToggleLineBreakpoint"/>.
-    IO.println("i = " + i);
-  }
+    Scanner ler = new Scanner(System.in);
+    System.out.println("Digite o idade: ");
+    idade = ler.nextInt();
+    System.out.println("Digite o altura: ");
+    altura = ler.nextFloat();
+
+    System.out.println("altura:" + idade);
+    System.out.println("altura:" + altura);
 }
